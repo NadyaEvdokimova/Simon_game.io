@@ -25,10 +25,10 @@ $(".btn").click(function() {
 
 $(".rules").click(function(){
     if (!tutorial){
-        $(".tutorial").removeClass("hide");
+        $(".tutorial").removeClass("hide_text");
         tutorial = true;
     } else {
-        $(".tutorial").addClass("hide");
+        $(".tutorial").addClass("hide_text");
         tutorial = false;     
     }
 
