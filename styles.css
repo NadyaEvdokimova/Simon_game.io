@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  4%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed-yellow {
+  box-shadow: 0 0 20px rgb(229, 255, 0);
+  background-color: rgb(245, 247, 139);
+}
+
+.pressed-red {
+  box-shadow: 0 0 20px rgb(255, 0, 200);
+  background-color: rgb(247, 208, 208);
+}
+
+.pressed-green {
+  box-shadow: 0 0 20px rgb(51, 255, 0);
+  background-color: rgb(136, 170, 132);
+}
+ 
+.pressed-blue {
+  box-shadow: 0 0 20px rgb(0, 225, 255);
+  background-color: rgb(172, 216, 236);
+}
+
+.rules {
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  border: 0.1rem solid #FEF2BF;
+  border-radius: 15px;
+  box-shadow: 0 5px #e7e2e2;
+  background-color: #011F3F;
+  padding: 0.5%;
+}
+
+.rules #button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.rules #button:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.rules:hover #button {
+  padding-right: 25px;
+}
+
+.rules:hover {
+  background-color: #001124;
+}
+
+.rules:hover #button:after {
+  opacity: 1;
+  right: 0;
+}
+
+.rules:active {
+  background-color: #001124;
+  box-shadow: 0 1px #e7e2e2;
+  transform: translateY(4px);
+}
+
+.tutorial {
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  padding: 1%;
+  font-size: 0.75rem;
+}
+
+.red_text {
+  color: red;
+}
+
+.green_text {
+  color: green;
+}
+
+.yellow_text {
+  color: yellow;
+}
+
+.blue_text {
+  color: blue;
+}
+
+p {
+  line-height: 20px;
+}
+
+.hide{
+  display: none;
+}

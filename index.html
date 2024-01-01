@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <button type="button" class="rules"><span id="button">How to play</span></button>
+
+  <div class="container">
+      <div class="tutorial hide">
+    <p>To start the game press any key</p>
+      </br>
+    <p>Computer'll show you any of the four colours: <span class="green_text">green</span>, <span class="red_text">red</span>, 
+      <span class="yellow_text">yellow</span>, <span class="blue_text">blue</span></p>
+  </br>
+  <p>You need to repeat the colour by pushing the same button</p>
+</br>
+<p> After 1 second Computer'll show you the next colour, you need to push buttons in according with whole sequence that you've pushed previously</p>
+</br>
+<p>For example: first colour - <span class="red_text">red</span>, you need to push the red button, next level - <span class="yellow_text">yellow</span>
+   - you need to push <span class="red_text">red</span>, <span class="yellow_text">yellow</span>; next level - 
+  <span class="green_text">green</span> - you need to push <span class="red_text">red</span> - <span class="yellow_text">yellow</span>
+   - <span class="green_text">green</span> and so on and so forth</p>
+  </br>
+  <p>If you missed any colour - you'll lose, restart the game by pushing any key</p>
+</br>
+<p>Press "How to play" again to hide the rules of the game</p>
+    </div>
+  </div>
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
