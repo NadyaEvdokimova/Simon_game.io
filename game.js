@@ -100,5 +100,6 @@ function startOver() {
     level = 0;
     gamePattern = [];
     started = false;
+    score = 0;
   }
   
